@@ -1131,10 +1131,10 @@
   dependencies:
     react-dropzone-esm "15.0.1"
 
-"@mantine/form@8.2.1":
-  version "8.2.1"
-  resolved "https://registry.yarnpkg.com/@mantine/form/-/form-8.2.1.tgz#b6cde2c2047358ffbce7607fdac875511987e95e"
-  integrity sha512-XXGdO3IgTNcDl6lP7FIysEaH0rP6CfOGulxQA3ot+hHA8/JxmHWoWeoKOBE8I6QW7UYqaBxARxgBHLMcp8qASw==
+"@mantine/form@8.3.0":
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/@mantine/form/-/form-8.3.0.tgz#002f1ee209b28ca62536d75baa25b07844d1fd27"
+  integrity sha512-x6NeoUk+Umd56CwXB28cyZxTztMkNMKvlLnRoTkguf6/ak3xRvGDJ4wcVHfYxls8jDSEvCT94voa/cirXObkyg==
   dependencies:
     fast-deep-equal "^3.1.3"
     klona "^2.0.6"
@@ -1328,17 +1328,17 @@
   dependencies:
     tslib "^2.8.0"
 
-"@tabler/icons-react@^3.34.0":
-  version "3.34.0"
-  resolved "https://registry.yarnpkg.com/@tabler/icons-react/-/icons-react-3.34.0.tgz#8503c25ba9e50ff02a49a1f9c62ceecfd27fa3ab"
-  integrity sha512-OpEIR2iZsIXECtAIMbn1zfKfQ3zKJjXyIZlkgOGUL9UkMCFycEiF2Y8AVfEQsyre/3FnBdlWJvGr0NU47n2TbQ==
+"@tabler/icons-react@^3.35.0":
+  version "3.35.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons-react/-/icons-react-3.35.0.tgz#27f295f36b42f8dc2e7841dd651c8905d0097818"
+  integrity sha512-XG7t2DYf3DyHT5jxFNp5xyLVbL4hMJYJhiSdHADzAjLRYfL7AnjlRfiHDHeXxkb2N103rEIvTsBRazxXtAUz2g==
   dependencies:
-    "@tabler/icons" "3.34.0"
+    "@tabler/icons" "3.35.0"
 
-"@tabler/icons@3.34.0":
-  version "3.34.0"
-  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-3.34.0.tgz#b11734dc76686abe969b68c2f33e565b116b70fb"
-  integrity sha512-jtVqv0JC1WU2TTEBN32D9+R6mc1iEBuPwLnBsWaR02SIEciu9aq5806AWkCHuObhQ4ERhhXErLEK7Fs+tEZxiA==
+"@tabler/icons@3.35.0":
+  version "3.35.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-3.35.0.tgz#6f35247e41baba2a1b0f4dff048bb1335d6c1075"
+  integrity sha512-yYXe+gJ56xlZFiXwV9zVoe3FWCGuZ/D7/G4ZIlDtGxSx5CGQK110wrnT29gUj52kEZoxqF7oURTk97GQxELOFQ==
 
 "@testing-library/dom@^10.4.0":
   version "10.4.0"
@@ -1484,12 +1484,12 @@
   resolved "https://registry.npmjs.org/@types/json5/-/json5-0.0.29.tgz"
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
 
-"@types/node@*", "@types/node@^24.3.0":
-  version "24.3.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.3.0.tgz#89b09f45cb9a8ee69466f18ee5864e4c3eb84dec"
-  integrity sha512-aPTXCrfwnDLj4VvXrm+UUCQjNEvJgNA8s5F1cvwQU+3KNltTOkBm1j30uNLyqqPNe7gE3KFzImYoZEfLhp4Yow==
+"@types/node@*", "@types/node@^24.5.0":
+  version "24.5.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.5.0.tgz#70a482e6b1d50e603729d74e62a9a43705ddc9d7"
+  integrity sha512-y1dMvuvJspJiPSDZUQ+WMBvF7dpnEqN4x9DDC9ie5Fs/HUZJA3wFp7EhHoVaKX/iI0cRoECV8X2jL8zi0xrHCg==
   dependencies:
-    undici-types "~7.10.0"
+    undici-types "~7.12.0"
 
 "@types/parse-json@^4.0.0":
   version "4.0.2"
@@ -2068,10 +2068,10 @@ axe-core@^4.10.0:
   resolved "https://registry.npmjs.org/axe-core/-/axe-core-4.10.0.tgz"
   integrity sha512-Mr2ZakwQ7XUAjp7pAwQWRhhK8mQQ6JAaNWSjmjxil0R8BPioMtQsTLOolGYkji1rcL++3dCqZA3zWqpT+9Ew6g==
 
-axios@^1.11.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.11.0.tgz#c2ec219e35e414c025b2095e8b8280278478fdb6"
-  integrity sha512-1Lx3WLFQWm3ooKDYZD1eXmoGO9fxYQjrycfHFC8P0sCfQVXyROp0p9PFWBehewBOdCwHc+f/b8I0fMto5eSfwA==
+axios@^1.12.0:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.12.0.tgz#11248459be05a5ee493485628fa0e4323d0abfc3"
+  integrity sha512-oXTDccv8PcfjZmPGlWsPSwtOJCZ/b6W5jAMCNcfwJbCzDckwG0jrYJFaWH1yvivfCXjVzV/SPDEhMB3Q+DSurg==
   dependencies:
     follow-redirects "^1.15.6"
     form-data "^4.0.4"
@@ -3312,10 +3312,10 @@ eslint-plugin-react@^7.37.0:
     string.prototype.matchall "^4.0.11"
     string.prototype.repeat "^1.0.0"
 
-eslint-plugin-testing-library@^7.6.0:
-  version "7.6.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-7.6.0.tgz#ac6ab335c19d3da2a2456379c21a12a8e042783c"
-  integrity sha512-rxCz4VQFb45kDeFLnQcjGpeb72r4HmCh6v49d+DhrD2HVpnJuwK/GOnPjezWS7CytkNjQjpXcPopxLN++FlXxw==
+eslint-plugin-testing-library@^7.8.0:
+  version "7.8.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-7.8.0.tgz#f18b95ad9710c32a7630c48fdfcba826e7c5d06a"
+  integrity sha512-zmu9xtpULN5KCtJBABBmXK3jfKZej2ZJ6QzCX4MtywP3UTJ7yn/Zful8Kn5mUiOCxX6KBt0to3OZf7Usuhtvfg==
   dependencies:
     "@typescript-eslint/scope-manager" "^8.15.0"
     "@typescript-eslint/utils" "^8.15.0"
@@ -4016,10 +4016,10 @@ i18next-fs-backend@^2.6.0:
   resolved "https://registry.yarnpkg.com/i18next-fs-backend/-/i18next-fs-backend-2.6.0.tgz#7b6b54c5ffc2a5073e47eda0673c002376fa1a3c"
   integrity sha512-3ZlhNoF9yxnM8pa8bWp5120/Ob6t4lVl1l/tbLmkml/ei3ud8IWySCHt2lrY5xWRlSU5D9IV2sm5bEbGuTqwTw==
 
-i18next@^25.4.0:
-  version "25.4.0"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-25.4.0.tgz#8c6f10bb365260c882aa532aec5e97b65cbdc997"
-  integrity sha512-UH5aiamXsO3cfrZFurCHiB6YSs3C+s+XY9UaJllMMSbmaoXILxFgqDEZu4NbfzJFjmUo3BNMa++Rjkr3ofjfLw==
+i18next@^25.5.0:
+  version "25.5.0"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-25.5.0.tgz#f78cac230a5d293c50be0629a7a65b2c57157e92"
+  integrity sha512-Mm2CgIq0revRFbBvfzqW9kDw1r44M4VDWC+YNRx9vTo5bU/iogSdEAC2HEonDA4czEce/iSbAkK90Tw7UrRZKA==
   dependencies:
     "@babel/runtime" "^7.27.6"
 
@@ -7049,10 +7049,10 @@ unbox-primitive@^1.1.0:
     has-symbols "^1.1.0"
     which-boxed-primitive "^1.1.1"
 
-undici-types@~7.10.0:
-  version "7.10.0"
-  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-7.10.0.tgz#4ac2e058ce56b462b056e629cc6a02393d3ff350"
-  integrity sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag==
+undici-types@~7.12.0:
+  version "7.12.0"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-7.12.0.tgz#15c5c7475c2a3ba30659529f5cdb4674b622fafb"
+  integrity sha512-goOacqME2GYyOZZfb5Lgtu+1IDmAlAEu5xnD3+xTzS10hT0vzpf0SPjkXwAw9Jm+4n/mQGDP3LO8CPbYROeBfQ==
 
 unrs-resolver@^1.7.11:
   version "1.9.0"
