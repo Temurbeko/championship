@@ -16,14 +16,14 @@ const navbar = (
   <Navbar
     logo={
       <>
-        <Image
+        {/* <Image
           width={36}
           height={36}
           src={logo.src}
           className="mr-2"
           alt="Preview of Bracket"
-        />
-        <b className="text-3xl">Bracket</b>
+        /> */}
+        <b className="text-3xl">Alpha-team</b>
       </>
     }
     projectLink="https://github.com/evroon/bracket"

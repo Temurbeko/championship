@@ -2329,6 +2329,11 @@ cliui@^8.0.1:
     strip-ansi "^6.0.1"
     wrap-ansi "^7.0.0"
 
+cloudflared@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/cloudflared/-/cloudflared-0.7.1.tgz#b006502805bb393234b20ab0d6417b0f9be2cddb"
+  integrity sha512-jJn1Gu9Tf4qnIu8tfiHZ25Hs8rNcRYSVf8zAd97wvYdOCzftm1CTs1S/RPhijjGi8gUT1p9yzfDi9zYlU/0RwA==
+
 clsx@1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/clsx/-/clsx-1.1.1.tgz"

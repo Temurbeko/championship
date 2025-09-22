@@ -31,10 +31,10 @@ export function StandingsTableForStageItem({
   const maxPoints = Math.max(...teams_with_inputs.map((input) => input.points));
 
   const rows = teams_with_inputs
-    .sort((p1: StageItemInputFinal, p2: StageItemInputFinal) => (p1.points > p2.points ? 1 : -1))
-    .sort((p1: StageItemInputFinal, p2: StageItemInputFinal) =>
-      sortTableEntries(p1, p2, tableState)
-    )
+    .sort((p1: StageItemInputFinal, p2: StageItemInputFinal) => (-+p1.points + +p2.points)) // here is sort by point
+    // .sort((p1: StageItemInputFinal, p2: StageItemInputFinal) =>
+    //   sortTableEntries(p1, p2, tableState)
+    // )
     .slice(0, maxTeamsToDisplay)
     .map((team_with_input, index) => (
       <Table.Tr key={team_with_input.id}>
@@ -79,9 +79,9 @@ export function StandingsTableForStageItem({
       <Table.Thead>
         <Table.Tr>
           <ThNotSortable>#</ThNotSortable>
-          <ThSortable state={tableState} field="name">
+          <ThNotSortable>
             {t('name_table_header')}
-          </ThSortable>
+          </ThNotSortable>
           {stageItem.type === 'SWISS' ? (
             <>
               <ThSortable visibleFrom="sm" state={tableState} field="points">
@@ -93,9 +93,9 @@ export function StandingsTableForStageItem({
             </>
           ) : (
             <>
-              <ThSortable visibleFrom="sm" state={tableState} field="points">
+              <ThNotSortable>
                 {t('points_table_header')}
-              </ThSortable>
+              </ThNotSortable>
               <ThNotSortable>
                 <WinDistributionTitle />
               </ThNotSortable>

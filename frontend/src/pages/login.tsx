@@ -14,7 +14,7 @@ import { IconCheck } from '@tabler/icons-react';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 // import useStyles from '../components/login/login.styles';
 import { tokenPresent } from '../services/local_storage';
@@ -51,8 +51,8 @@ export default function Login() {
     },
 
     validate: {
-      email: (value) => (/^\S+@\S+$/.test(value) ? null : t('invalid_email_validation')),
-      password: (value) => (value.length >= 8 ? null : t('invalid_password_validation')),
+      email: (value: any) => (/^\S+@\S+$/.test(value) ? null : t('invalid_email_validation')),
+      password: (value: any) => (value.length >= 8 ? null : t('invalid_password_validation')),
     },
   });
 
@@ -61,7 +61,7 @@ export default function Login() {
       <Title ta="center" mt={100}>
         {t('welcome_title')}{' '}
         <Text inherit variant="gradient" component="span">
-          Bracket
+          Alpha-team
         </Text>
       </Title>
       <Container size={480} my={40}>

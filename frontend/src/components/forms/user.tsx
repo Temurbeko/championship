@@ -36,17 +36,7 @@ export default function UserForm({ user, t, i18n }: { user: UserInterface; t: an
   });
 
   const locales = [
-    { value: 'zh', label: '🇨🇳 Chinese' },
-    { value: 'nl', label: '🇳🇱 Dutch' },
-    { value: 'en', label: '🇺🇸 English' },
-    { value: 'fr', label: '🇫🇷 French' },
-    { value: 'de', label: '🇩🇪 German' },
-    { value: 'el', label: '🇬🇷 Greek' },
-    { value: 'it', label: '🇮🇹 Italian' },
-    { value: 'ja', label: '🇯🇵 Japanese' },
-    { value: 'pt', label: '🇵🇹 Portuguese' },
-    { value: 'es', label: '🇪🇸 Spanish' },
-    { value: 'se', label: '🇸🇪 Swedish' },
+    { value: 'en', label: 'uz Uzbek' },
   ];
 
   const changeLanguage = (newLocale: string | null) => {

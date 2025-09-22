@@ -2,7 +2,7 @@ import { Grid, Select, Title } from '@mantine/core';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import TournamentsCardTable from '../components/card_tables/tournaments';
 import TournamentModal from '../components/modals/tournament_modal';
@@ -19,6 +19,10 @@ export default function HomePage() {
   const swrTournamentsResponse = getTournaments(filter);
   checkForAuthError(swrTournamentsResponse);
 
+  useEffect(() => {
+    document.title = 'Alpha-team';
+  }, []);
+
   return (
     <Layout>
       <Grid>
@@ -30,9 +34,9 @@ export default function HomePage() {
             size="md"
             placeholder="Pick value"
             data={[
-              { label: 'All', value: 'ALL' },
-              { label: 'Archived', value: 'ARCHIVED' },
-              { label: 'Open', value: 'OPEN' },
+              { label: 'Hammasi', value: 'ALL' },
+              { label: 'Arxiv', value: 'ARCHIVED' },
+              { label: 'Ochiq', value: 'OPEN' },
             ]}
             allowDeselect={false}
             value={filter}

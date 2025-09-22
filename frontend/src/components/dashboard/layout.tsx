@@ -67,7 +67,7 @@ export function TournamentHeadTitle({ tournamentDataFull }: { tournamentDataFull
   return tournamentDataFull != null ? (
     <title>{tournamentDataFull.name}</title>
   ) : (
-    <title>Bracket</title>
+    <title>Alpha-team</title>
   );
 }
 
@@ -85,8 +85,8 @@ export function DoubleHeader({ tournamentData }: { tournamentData: Tournament })
   const pathName = router.pathname.replace('[id]', endpoint).replace(/\/+$/, '');
 
   const mainLinks = [
-    { link: `/tournaments/${endpoint}/dashboard`, label: 'Matches' },
-    { link: `/tournaments/${endpoint}/dashboard/standings`, label: 'Standings' },
+    { link: `/tournaments/${endpoint}/dashboard`, label: 'O`yinlar' },
+    { link: `/tournaments/${endpoint}/dashboard/standings`, label: 'Liga jadvali' },
   ];
 
   const mainItems = mainLinks.map((item) => (
